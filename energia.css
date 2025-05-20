@@ -1,0 +1,68 @@
+/* style.css */
+
+/* --- Estilos Gerais (Aplicáveis a todas as páginas) --- */
+body {
+    font-family: 'Arial', sans-serif; /* Define uma fonte padrão para todo o site */
+    background-color: #f8f9fa; /* Cor de fundo suave do Bootstrap (light gray) */
+    color: #343a40; /* Cor de texto padrão (dark gray) */
+}
+
+/* Estilo para o cabeçalho principal de cada página */
+.cabecalho {
+    padding: 60px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza o texto */
+    background-color: #e9ecef; /* Um cinza mais claro para o fundo */
+    color: #212529; /* Cor de texto mais escura */
+    margin-bottom: 30px; /* Espaço abaixo do cabeçalho */
+}
+
+.cabecalho h1 {
+    font-size: 3.5rem; /* Tamanho da fonte para o título principal */
+    font-weight: 700; /* Negrito */
+    color: #28a745; /* Cor verde do Bootstrap (success) */
+}
+
+.cabecalho h3 {
+    font-size: 1.75rem; /* Tamanho da fonte para o subtítulo */
+    color: #6c757d; /* Cor cinza mais escura do Bootstrap (secondary) */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #343a40; /* Cor escura do Bootstrap (dark) */
+    color: #ffffff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Espaço acima do rodapé */
+    font-size: 0.9rem; /* Tamanho de fonte um pouco menor */
+}
+
+/* --- Estilos Específicos para Imagens de Conteúdo --- */
+.img-content {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* Bordas levemente arredondadas */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+
+/* --- Estilos para Listas Personalizadas (se usadas) --- */
+.list-group-item strong {
+    color: #28a745; /* Destaca o texto em negrito nas listas com a cor verde */
+}
+
+/* --- Estilos para Alinhamento de Texto (se necessário) --- */
+.text-justify {
+    text-align: justify;
+}
+
+/* --- Estilos Específicos para a Página de Energia (exemplo) --- */
+/* Se você tiver elementos únicos na página de energia que precisem de estilos além do Bootstrap, adicione aqui. */
+/* Por exemplo: */
+.energia-icon {
+    font-size: 3rem; /* Aumenta o tamanho de ícones de energia */
+    color: #ffc107; /* Cor amarela do Bootstrap (warning) para ícones de energia */
+}
+
+.energia-card-title {
+    color: #007bff; /* Cor azul do Bootstrap (primary) para títulos de cards de energia */
+}

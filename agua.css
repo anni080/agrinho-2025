@@ -1,0 +1,51 @@
+/* style.css */
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define uma fonte padrão */
+    background-color: #f8f9fa; /* Um cinza claro do Bootstrap para o fundo */
+    color: #343a40; /* Cor de texto padrão */
+}
+
+/* Estilo para o cabeçalho de seção (se você usar em outras páginas) */
+.cabecalho {
+    padding: 60px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza o texto */
+    background-color: #e9ecef; /* Um cinza mais claro para o fundo */
+    color: #212529; /* Cor de texto mais escura */
+    margin-bottom: 30px; /* Espaço abaixo do cabeçalho */
+}
+
+.cabecalho h1 {
+    font-size: 3.5rem; /* Tamanho da fonte para o título principal */
+    font-weight: 700; /* Negrito */
+    color: #28a745; /* Cor verde do Bootstrap */
+}
+
+.cabecalho h3 {
+    font-size: 1.75rem; /* Tamanho da fonte para o subtítulo */
+    color: #6c757d; /* Cor cinza mais escura do Bootstrap */
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #343a40; /* Cor escura do Bootstrap */
+    color: #ffffff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Espaço acima do rodapé */
+    font-size: 0.9rem; /* Tamanho de fonte um pouco menor */
+}
+
+/* Ajustes para imagens dentro do conteúdo principal, se houver */
+.img-content {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem; /* Bordas levemente arredondadas */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+
+/* Estilo para parágrafos com justificação (se necessário) */
+.text-justify {
+    text-align: justify;
+}

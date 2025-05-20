@@ -1,0 +1,88 @@
+/* style.css */
+
+/* --- Estilos Gerais (Aplicáveis a todas as páginas do Agrinho) --- */
+body {
+    padding: 0; /* Bootstrap geralmente zera isso, mas manter aqui reforça */
+    margin: 0; /* Bootstrap geralmente zera isso, mas manter aqui reforça */
+    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão */
+    background-color: #f8f9fa; /* Um cinza claro do Bootstrap para o fundo */
+    color: #343a40; /* Cor de texto padrão */
+}
+
+/* Estilo para o cabeçalho principal de cada página */
+/* Esta classe '.cabecalho' pode ser substituída por classes Bootstrap como 'bg-light py-4 text-center' diretamente no HTML, mas mantida aqui se houver estilos muito específicos. */
+.cabecalho {
+    padding: 60px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza o texto */
+    background-color: #e9ecef; /* Um cinza mais claro para o Bootstrap */
+    color: #212529; /* Cor de texto mais escura */
+    margin-bottom: 30px; /* Espaço abaixo do cabeçalho */
+}
+
+.cabecalho h1 {
+    font-size: 3.5rem; /* Tamanho da fonte para o título principal */
+    font-weight: 700; /* Negrito */
+    color: #28a745; /* Cor verde do Bootstrap (success) */
+}
+
+.cabecalho h3 {
+    font-size: 1.75rem; /* Tamanho da fonte para o subtítulo */
+    color: #6c757d; /* Cor cinza mais escura do Bootstrap (secondary) */
+}
+
+/* Estilo para o rodapé (consistente com as outras páginas) */
+/* Esta classe '.footer' pode ser substituída por classes Bootstrap como 'bg-dark text-white text-center py-3 mt-5' diretamente no HTML, mas mantida aqui se houver estilos muito específicos. */
+.footer {
+    background-color: #343a40; /* Cor escura do Bootstrap (dark) */
+    color: #ffffff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 50px; /* Espaço acima do rodapé */
+    font-size: 0.9rem; /* Tamanho de fonte um pouco menor */
+}
+
+/* --- Estilos Específicos para Imagens de Conteúdo --- */
+/* A classe 'img-fluid' do Bootstrap já cuida da responsividade.
+   'rounded' cuida do 'border-radius'. 'shadow' cuida da sombra. */
+.img-agro {
+    width: 300px; /* Define uma largura específica, mas 'img-fluid' no HTML garante que não ultrapasse o contêiner */
+    /* Você pode remover 'br-3' do HTML e usar 'rounded' do Bootstrap ou deixar 'br-3' aqui */
+    border-radius: 15px; /* Mantido se quiser um border-radius diferente do padrão 'rounded' do Bootstrap (0.25rem) */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Adiciona sombra consistente */
+}
+
+.img-card {
+    max-height: 250px; /* Limita a altura das imagens dos cards */
+    object-fit: cover; /* Garante que a imagem preencha a área sem distorcer */
+}
+
+.img-slide {
+    max-height: 400px; /* Limita a altura das imagens do carrossel */
+    object-fit: cover; /* Garante que a imagem preencha a área sem distorcer */
+}
+
+/* --- Estilos para Listas Personalizadas (se usadas em ul.list-group-flush) --- */
+.list-group-item strong {
+    color: #28a745; /* Destaca o texto em negrito nas listas com a cor verde (success) */
+}
+
+/* --- Estilos para Alinhamento de Texto --- */
+/* 'text-justify' é uma classe útil para justificar o texto */
+.text-justify {
+    text-align: justify;
+}
+
+/* --- Estilos Específicos para a Página de Produção (exemplo de classes adicionais) --- */
+/* Estas são apenas sugestões caso você precise de estilos muito específicos para elementos na página de produção. */
+.producao-destaque {
+    background-color: #d1ecf1; /* Cor de fundo suave para destaque (info light) */
+    border-left: 5px solid #00a0e6; /* Borda colorida à esquerda */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0.25rem;
+}
+
+.producao-icon {
+    font-size: 2.5rem; /* Aumenta o tamanho de ícones relacionados à produção */
+    color: #007bff; /* Cor azul do Bootstrap (primary) */
+}
